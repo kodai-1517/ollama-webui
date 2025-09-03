@@ -64,20 +64,20 @@ sequenceDiagram
 
 1. VSCodeにDockerの拡張機能をインストール
 
-    ![](images\vscode_docker.png)
+    ![Image](images\vscode_docker.png)
 
 1. リポジトリをクローン
 
-    ![](images\vscode_clone.png)
-    ![](images\vscode_repository.png)
+    ![Image](images\vscode_clone.png)
+    ![Image](images\vscode_repository.png)
 
 1. docker-compose.yamlを右クリックし、Compose Upを選択
 
-    ![](images\compose_up.png)
+    ![Image](images\compose_up.png)
 
 1. shellを開く
 
-    ![](images\attach_shell.png)
+    ![Image](images\attach_shell.png)
 
 1. モデルのダウンロード（[モデルの一覧](https://ollama.com/library)）
     ```
