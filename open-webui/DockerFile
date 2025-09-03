@@ -1,0 +1,6 @@
+# open-webui/Dockerfile
+FROM ghcr.io/open-webui/open-webui:main
+# データ永続化用ボリュームの指定
+VOLUME /app/backend/data
+# コンテナ内でバックエンドがリッスンするポートを公開
+EXPOSE 8080

@@ -1,0 +1,6 @@
+# ollama/Dockerfile
+FROM ollama/ollama
+# コンテナ起動時のデータ永続化用ボリューム
+VOLUME /root/.ollama
+# ポート11434を公開
+EXPOSE 11434
