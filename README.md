@@ -81,7 +81,7 @@ sequenceDiagram
 
 1. モデルのダウンロード（[モデルの一覧](https://ollama.com/library)）
     ```
-    docker exec ollama ollama pull <model_name>
+    ollama pull <model_name>
     ```
 
 1. https://localhost:3000 にアクセス
